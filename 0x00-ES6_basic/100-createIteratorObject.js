@@ -1,7 +1,7 @@
 export default function createIteratorObject(report) {
   let iterableObject = [];
 
-  if (!report.allEmployees || typeof(report.allEmployees) !== 'object') {
+  if (!report.allEmployees || typeof (report.allEmployees) !== 'object') {
     return iterableObject;
   }
 
