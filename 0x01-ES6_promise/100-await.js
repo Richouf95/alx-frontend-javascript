@@ -8,7 +8,8 @@ async function asyncUploadUser() {
     photo = await uploadPhoto();
     user = await createUser();
   } catch (err) {
-    photo = user = null;
+    photo = null;
+    user = null;
   }
 
   const userData = {
